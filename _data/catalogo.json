@@ -36,6 +36,18 @@
       "id": "accessori",
       "icona": "🔋",
       "descrizione": "Batterie, filtri, borse e assistenza per volare piu' a lungo."
+    },
+    {
+      "nome": "Carico e agricoltura",
+      "id": "carico",
+      "icona": "📦",
+      "descrizione": "Droni da trasporto e agricoli: da 100 g a 100 kg di carico, per pesca, consegne e trattamenti."
+    },
+    {
+      "nome": "Ricambi",
+      "id": "ricambi",
+      "icona": "🔧",
+      "descrizione": "Eliche, motori, bracci, gimbal e protezioni per tenere il drone sempre in volo."
     }
   ],
   "prodotti": [

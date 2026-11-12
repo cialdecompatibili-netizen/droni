@@ -22,5 +22,13 @@
   {
     "nome": "Accessori e assistenza",
     "slug": "accessori"
+  },
+  {
+    "nome": "Carico e agricoltura",
+    "slug": "carico"
+  },
+  {
+    "nome": "Ricambi",
+    "slug": "ricambi"
   }
 ]

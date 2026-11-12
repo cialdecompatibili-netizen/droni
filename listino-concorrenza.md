@@ -145,3 +145,42 @@ Parrot non fa piu' droni consumer: punta su sicurezza pubblica, difesa, ispezion
 - Autel Robotics: auteldrones.com e comparatori di specifiche
 - Potensic: TechRadar Italia, Dronezine, Galaxus
 - Parrot: parrot.com, UAV Coach, Coptrz
+
+
+---
+
+## 7. LOGICA DEL CATALOGO (12/11/2026) - da seguire per ogni nuova categoria
+
+**Regola di Mirco:** per OGNI categoria del negozio si analizza la concorrenza (DJI, Autel, Potensic, Parrot, altri), si individuano i modelli migliori e piu' venduti e si crea una nostra variante equivalente (nome nostro Skyora, niente marchi, niente loghi, stesse fasce di prezzo). Si privilegiano i prodotti che risolvono un problema reale e che il mercato chiede, con buon margine.
+
+**Passi, sempre uguali**
+1. Cerca sul web i modelli migliori della categoria e le fasce di prezzo reali; scrivili qui con fonte e affidabilita' (Alta/Media/Bassa).
+2. Crea la nostra variante per fascia (entry, media, pro) con nome Skyora, descrizione e prezzo target. I prezzi li conferma Mirco.
+3. Categoria in `_data/catalogo.json` (+ `shop-categorie.json` + `_negozio/categoria-<id>.md`): script `claudetemp\pilota_droni\crea_categorie.py` come modello.
+4. Prodotti con `automation/prodotto.py` (foto incluse).
+5. FOTO: SOLO con `gemini_auto\img.py --profilo prodotto` e l'extra "It is a drone product or accessory, NOT a bottle. No text, no logos, no brand names, no labels." Mai `foto_sito.py` (fa bottiglie con etichetta). Guardare sempre la foto prima di pubblicare. Cambio account automatico dentro img.py.
+
+**Categorie attive:** primo-drone, viaggio-vlog, foto-video, fpv, professionali, accessori, **carico** (nuova), **ricambi** (nuova, per ora vuota).
+
+## 8. Droni da carico e agricoli (idea di Mirco, DA POPOLARE)
+
+Mercato reale e in crescita: nuova generazione DJI Agras T100, T70P e T25P in vendita in Europa da novembre 2025, primo T100 autorizzato ENAC in Italia (Aermatica3D). Dati pubblici DJI: T100 fino a 100 L irrorazione / 150 L spargimento / circa 80-100 kg sollevamento; T70P 70 L / 100 L / 65 kg; T25 20 kg irrorazione / 25 kg spargimento. Alternative cinesi a minor prezzo (es. H200 agricolo/trasporto). Prezzi in euro NON ancora verificati: da cercare presso rivenditori italiani prima di fissare i nostri.
+
+Scala di carico pensata da Mirco (una variante Skyora per fascia):
+
+| Fascia | Uso | Nota |
+|---|---|---|
+| **100 g** | Pesca: porta l'esca/lenza al largo, rilascio a gancio | Micro, economico, grande richiesta hobby |
+| **1 kg** | Carico leggero robusto; anche piccoli trattamenti/fertilizzante in aree piccole | Fascia ponte tra hobby e lavoro |
+| **10 kg** | Fertilizzante/irrorazione per orti, vigneti, uliveti; trasporto | Equivale al segmento DJI Agras T10/T25 |
+| **100 kg** | Agricolo grande e sollevamento | Equivale a Agras T100; regole ENAC pesanti per peso e carico |
+
+Problemi reali risolti (priorita' per profitto): trattamenti in vigneti/terreni in pendenza dove il trattore non arriva, distribuzione fertilizzante, trasporto in zone isolate, pesca da riva.
+
+**Da verificare PRIMA di vendere:** regole ENAC/D-Flight per droni sopra i 25 kg e con carico, patentino/abilitazione per l'irrorazione di prodotti fitosanitari (in Italia l'uso e' fortemente limitato e autorizzato), assicurazione, omologazione. Senza queste non si vende come "pronto all'uso" nel sito.
+
+**Prossimo passo:** cercare i prezzi reali italiani di T25/T50/T100 e di 2-3 alternative, poi creare i 4 prodotti Skyora (100 g, 1 kg, 10 kg, 100 kg) con foto e fissare i prezzi con Mirco.
+
+## 9. Categoria Ricambi (idea)
+
+Ricambi dei nostri modelli: eliche (coppie), motori, bracci, protezioni eliche, gimbal/camera, scocche, cavi. Margine alto e acquisto ricorrente. Da popolare dopo i droni.
