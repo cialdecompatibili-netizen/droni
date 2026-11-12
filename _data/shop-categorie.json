@@ -38,5 +38,25 @@
   {
     "nome": "Droni da lavoro",
     "slug": "lavoro"
+  },
+  {
+    "nome": "Linee elettriche e cavi",
+    "slug": "linee-cavi"
+  },
+  {
+    "nome": "Ispezioni e termografia",
+    "slug": "ispezioni"
+  },
+  {
+    "nome": "Pulizia facciate e impianti",
+    "slug": "pulizia"
+  },
+  {
+    "nome": "Antincendio e soccorso",
+    "slug": "antincendio"
+  },
+  {
+    "nome": "Sorveglianza e docking",
+    "slug": "sorveglianza"
   }
 ]
