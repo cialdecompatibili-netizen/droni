@@ -1,6 +1,26 @@
 [
   {
-    "nome": "esempio",
-    "slug": "esempio"
+    "nome": "Primo drone",
+    "slug": "primo-drone"
+  },
+  {
+    "nome": "Viaggio e vlog",
+    "slug": "viaggio-vlog"
+  },
+  {
+    "nome": "Foto e video pro",
+    "slug": "foto-video"
+  },
+  {
+    "nome": "FPV e acrobatico",
+    "slug": "fpv"
+  },
+  {
+    "nome": "Professionali",
+    "slug": "professionali"
+  },
+  {
+    "nome": "Accessori e assistenza",
+    "slug": "accessori"
   }
 ]

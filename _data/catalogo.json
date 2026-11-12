@@ -1,36 +1,223 @@
 {
-  "_nota": "Catalogo dello shop (serve solo con ecommerce: true in _config.yml). Prezzi in CENTESIMI. Ogni prodotto/categoria ha anche una pagina in _negozio/ (layout negozio-prodotto con pid=<id>, negozio-categoria con cid=<id>). L'id categoria e' riservato. tipo: digitale (niente spedizione) o fisico. visibile:false nasconde senza cancellare. TRADUZIONI: ogni categoria/prodotto puo' avere \"tr\": {\"en\": {\"nome\": \"...\", \"descrizione\": \"...\", \"descrizione_completa\": \"...\"}}; campo mancante = si usa l'italiano.",
+  "_nota": "Catalogo smoke test droni. Prezzi in CENTESIMI. Nomi e prezzi di posizionamento: specifiche e prezzi finali da confermare col fornitore.",
   "categorie": [
     {
-      "nome": "Esempio",
-      "id": "esempio",
-      "icona": "🛍️",
-      "tr": {
-        "en": {
-          "nome": "Example"
-        }
-      }
+      "nome": "Primo drone",
+      "id": "primo-drone",
+      "icona": "🚁",
+      "descrizione": "Piccoli, facili e poco costosi: per provare senza spendere troppo."
+    },
+    {
+      "nome": "Viaggio e vlog",
+      "id": "viaggio-vlog",
+      "icona": "🧳",
+      "descrizione": "Leggeri da portare, ottimi per viaggi, sport e video con le persone."
+    },
+    {
+      "nome": "Foto e video pro",
+      "id": "foto-video",
+      "icona": "📷",
+      "descrizione": "Sensori grandi e doppia camera per immobili, eventi e turismo."
+    },
+    {
+      "nome": "FPV e acrobatico",
+      "id": "fpv",
+      "icona": "🥽",
+      "descrizione": "Volo immersivo con visore, per chi vuole sentirsi a bordo."
+    },
+    {
+      "nome": "Professionali",
+      "id": "professionali",
+      "icona": "🛰️",
+      "descrizione": "Mappatura, ispezioni e termico per il lavoro."
+    },
+    {
+      "nome": "Accessori e assistenza",
+      "id": "accessori",
+      "icona": "🔋",
+      "descrizione": "Batterie, filtri, borse e assistenza per volare piu' a lungo."
     }
   ],
   "prodotti": [
     {
-      "tipo": "digitale",
-      "id": "prodotto-esempio",
-      "nome": "Prodotto di esempio",
-      "categoria": "esempio",
-      "prezzo_centesimi": 1000,
-      "descrizione": "Descrizione breve del prodotto di esempio.",
-      "descrizione_completa": "Descrizione completa del prodotto.\nOgni riga diventa un paragrafo.",
+      "tipo": "fisico",
+      "id": "spark",
+      "nome": "Skyora Spark",
+      "categoria": "primo-drone",
+      "prezzo_centesimi": 14900,
+      "descrizione": "Micro drone per provare: selfie, vlog e riprese da vicino.",
+      "descrizione_completa": "Il drone con cui iniziare senza ansia: piccolo, semplice, pensato per chi non ha mai volato.\nIdeale per: selfie dall'alto, brevi video per i social, prime ore di pratica.\nScheda tecnica completa su richiesta.",
       "immagine": "",
-      "icona": "🛍️",
-      "visibile": true,
-      "tr": {
-        "en": {
-          "nome": "Example product",
-          "descrizione": "Short description of the example product.",
-          "descrizione_completa": "Full description of the product.\nEach line becomes a paragraph."
-        }
-      }
+      "icona": "🚁",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "spark-2",
+      "nome": "Skyora Spark 2",
+      "categoria": "primo-drone",
+      "prezzo_centesimi": 21900,
+      "descrizione": "Evoluzione di Spark: piu' stabile e con camera migliore, sempre facile.",
+      "descrizione_completa": "Per chi vuole un primo drone che non stanca dopo una settimana.\nIdeale per: principianti, regali, vlogger che vogliono zero complicazioni.\nScheda tecnica completa su richiesta.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "loop",
+      "nome": "Skyora Loop",
+      "categoria": "primo-drone",
+      "prezzo_centesimi": 29900,
+      "descrizione": "Pieghevole e protetto, per vlog e uso di tutti i giorni.",
+      "descrizione_completa": "Un drone da tenere sempre nello zaino, con video 4K per raccontare uscite e viaggi.\nIdeale per: creator, famiglie, uso quotidiano.\nScheda tecnica completa su richiesta.",
+      "immagine": "",
+      "icona": "🚁",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "voyager-4k",
+      "nome": "Skyora Voyager 4K (Combo)",
+      "categoria": "viaggio-vlog",
+      "prezzo_centesimi": 33900,
+      "descrizione": "Leggero con batterie extra e borsa inclusi: parti subito.",
+      "descrizione_completa": "Il combo per chi viaggia: drone, batterie aggiuntive e borsa in un solo ordine.\nIdeale per: vacanze, escursioni, hobby con budget contenuto.\nScheda tecnica completa su richiesta.",
+      "immagine": "",
+      "icona": "🧳",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "voyager-pro",
+      "nome": "Skyora Voyager Pro",
+      "categoria": "viaggio-vlog",
+      "prezzo_centesimi": 56900,
+      "descrizione": "Evita gli ostacoli e segue chi si muove: sport e viaggi.",
+      "descrizione_completa": "Per riprendere persone in movimento senza pensare ai comandi.\nIdeale per: sport, bici, trekking, riprese di famiglia.\nScheda tecnica completa su richiesta.",
+      "immagine": "",
+      "icona": "🧳",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "voyager-one",
+      "nome": "Skyora Voyager One",
+      "categoria": "viaggio-vlog",
+      "prezzo_centesimi": 69900,
+      "descrizione": "Sensore grande per foto e video di qualita' in un drone leggero.",
+      "descrizione_completa": "Il top della linea Voyager per chi vuole immagini migliori senza portarsi dietro un drone pesante.\nIdeale per: foto di viaggio, paesaggi, piccoli lavori.\nScheda tecnica completa su richiesta.",
+      "immagine": "",
+      "icona": "🧳",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "aurora-dual",
+      "nome": "Skyora Aurora Dual",
+      "categoria": "foto-video",
+      "prezzo_centesimi": 89900,
+      "descrizione": "Doppia camera (grandangolo e tele) per foto e video piu' professionali.",
+      "descrizione_completa": "Due obiettivi per scegliere l'inquadratura: ampia sul paesaggio o ravvicinata sul dettaglio.\nIdeale per: immobiliare, turismo, eventi, creator.\nScheda tecnica completa su richiesta.",
+      "immagine": "",
+      "icona": "📷",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "aurora-cine",
+      "nome": "Skyora Aurora Cine",
+      "categoria": "foto-video",
+      "prezzo_centesimi": 169000,
+      "descrizione": "Per cinema, pubblicita' e fotografi che producono ogni giorno.",
+      "descrizione_completa": "La macchina per chi consegna lavori a clienti: camera di fascia alta e gimbal evoluto.\nIdeale per: spot, video aziendali, immobili di pregio.\nScheda tecnica completa su richiesta.",
+      "immagine": "",
+      "icona": "📷",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "raptor-fpv",
+      "nome": "Skyora Raptor FPV",
+      "categoria": "fpv",
+      "prezzo_centesimi": 49900,
+      "descrizione": "Volo immersivo con visore: acrobazie e adrenalina.",
+      "descrizione_completa": "Si vola guardando attraverso il drone, con una sensazione unica.\nIdeale per: appassionati di volo acrobatico e riprese dinamiche.\nConsigliato dopo qualche ora di pratica con un drone piu' semplice.",
+      "immagine": "",
+      "icona": "🥽",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "atlas-survey",
+      "nome": "Skyora Atlas Survey",
+      "categoria": "professionali",
+      "prezzo_centesimi": 299000,
+      "descrizione": "Mappatura e topografia: rilievi di cantieri, terreni e coperture.",
+      "descrizione_completa": "Per tecnici e imprese che devono misurare e documentare dall'alto.\nIdeale per: topografia, agricoltura di precisione, edilizia.\nPrezzo e configurazione da confermare su richiesta.",
+      "immagine": "",
+      "icona": "🛰️",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "atlas-thermal",
+      "nome": "Skyora Atlas Thermal",
+      "categoria": "professionali",
+      "prezzo_centesimi": 399000,
+      "descrizione": "Camera termica per ispezioni, sicurezza e ricerca persone.",
+      "descrizione_completa": "Vede il calore: trova dispersioni, pannelli solari guasti, persone disperse.\nIdeale per: ispezioni industriali, impianti fotovoltaici, soccorso.\nPrezzo e configurazione da confermare su richiesta.",
+      "immagine": "",
+      "icona": "🛰️",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "batteria-extra",
+      "nome": "Batteria extra",
+      "categoria": "accessori",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Piu' voli senza fermarti: la prima cosa da aggiungere.",
+      "descrizione_completa": "La batteria dura poco: una seconda raddoppia il divertimento.\nCompatibile con la linea indicata nella scheda: chiedici quale scegliere.",
+      "immagine": "",
+      "icona": "🔋",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "filtri-nd",
+      "nome": "Set filtri ND",
+      "categoria": "accessori",
+      "prezzo_centesimi": 3900,
+      "descrizione": "Video piu' fluidi con luce forte.",
+      "descrizione_completa": "Tre filtri per girare con il sole senza bruciare le immagini.\nChiedici quale set e' compatibile con il tuo modello.",
+      "immagine": "",
+      "icona": "🔋",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "borsa",
+      "nome": "Borsa da trasporto",
+      "categoria": "accessori",
+      "prezzo_centesimi": 2900,
+      "descrizione": "Drone, telecomando e batterie in un solo zaino.",
+      "descrizione_completa": "Protegge il drone in viaggio e tiene tutto in ordine.",
+      "immagine": "",
+      "icona": "🔋",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "assistenza-12",
+      "nome": "Assistenza 12 mesi",
+      "categoria": "accessori",
+      "prezzo_centesimi": 5900,
+      "descrizione": "Un aiuto in piu' se qualcosa va storto nel primo anno.",
+      "descrizione_completa": "Copertura e assistenza dedicata per il primo anno.\nCondizioni dettagliate su richiesta prima dell'acquisto.",
+      "immagine": "",
+      "icona": "🔋",
+      "visibile": true
     }
   ]
 }
