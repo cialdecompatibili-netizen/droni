@@ -62,5 +62,29 @@
   {
     "nome": "Sicurezza pubblica e settori critici",
     "slug": "sicurezza"
+  },
+  {
+    "nome": "Ala fissa VTOL",
+    "slug": "vtol"
+  },
+  {
+    "nome": "Primo VTOL e FPV",
+    "slug": "vtol-hobby"
+  },
+  {
+    "nome": "Mappatura e rilievi",
+    "slug": "vtol-mappatura"
+  },
+  {
+    "nome": "Ispezione linee e condotte",
+    "slug": "vtol-corridoi"
+  },
+  {
+    "nome": "Consegne e logistica",
+    "slug": "vtol-consegne"
+  },
+  {
+    "nome": "Ricerca e soccorso",
+    "slug": "vtol-soccorso"
   }
 ]

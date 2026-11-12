@@ -102,6 +102,47 @@
       "id": "sicurezza",
       "icona": "🚨",
       "descrizione": "Soccorso, antincendio, ricerca persone, protezione civile e sorveglianza di infrastrutture critiche."
+    },
+    {
+      "nome": "Ala fissa VTOL",
+      "id": "vtol",
+      "icona": "✈️",
+      "descrizione": "Aerei a decollo verticale: 4 motori per salire e atterrare e un’elica per la crociera. Autonomia da aereo, decollo da pochi metri."
+    },
+    {
+      "nome": "Primo VTOL e FPV",
+      "id": "vtol-hobby",
+      "icona": "🛫",
+      "descrizione": "Scafo in schiuma, piegabile e a prova d’urto: il primo aereo senza pista.",
+      "genitore": "vtol"
+    },
+    {
+      "nome": "Mappatura e rilievi",
+      "id": "vtol-mappatura",
+      "icona": "🗺️",
+      "descrizione": "Rilievi e mappe di campi, cave e cantieri con ore di autonomia.",
+      "genitore": "vtol"
+    },
+    {
+      "nome": "Ispezione linee e condotte",
+      "id": "vtol-corridoi",
+      "icona": "🔌",
+      "descrizione": "Corridoi lunghi: linee elettriche, condotte e coste, con zoom e termico.",
+      "genitore": "vtol"
+    },
+    {
+      "nome": "Consegne e logistica",
+      "id": "vtol-consegne",
+      "icona": "📦",
+      "descrizione": "Piccoli carichi con sgancio verso isole, cascine e rifugi.",
+      "genitore": "vtol"
+    },
+    {
+      "nome": "Ricerca e soccorso",
+      "id": "vtol-soccorso",
+      "icona": "🚨",
+      "descrizione": "Ricerca persone in aree isolate, con termico e lungo raggio.",
+      "genitore": "vtol"
     }
   ],
   "prodotti": [

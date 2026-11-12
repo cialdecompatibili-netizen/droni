@@ -203,3 +203,50 @@ Prezzi in negozio = TARGET di posizionamento, da confermare col fornitore. Rifer
 - Sicurezza pubblica, ricerca persone al buio con termico, rilievi, pannelli solari.
 
 **Da verificare PRIMA di vendere:** ENAC/D-Flight per peso e carico, abilitazione per irrorazione (fitosanitari fortemente regolati in Italia), assicurazione, lavori su linee elettriche solo con operatori autorizzati. Nel sito le schede Agro e Lineman dicono gia' di verificare le autorizzazioni.
+
+
+---
+
+## 11. VTOL A 5 ELICHE (QUADPLANE) - RICERCA 12/11/2026 (idea di Mirco: categoria molto importante)
+
+**Cos'e':** aereo a decollo e atterraggio verticale. 4 motori verticali (solo per salire, scendere e stare fermi) + 1 elica spingente dietro (crociera). In volo avanzato porta l'ala, non i 4 motori. Non serve pista: si decolla da pochi metri quadrati e le ali si ripiegano in una valigia/zaino.
+
+### Logiche da conoscere (per progettare prodotti "sapienti")
+- **Perche' vince sul multirotore:** per mappare grandi aree, ispezionare corridoi lunghi (linee elettriche, condotte, coste) o cercare persone in zone isolate l'ala da' autonomia di 90-180 min contro i 30-40 min di un multirotore. Il multirotore resta meglio per stare fermi e fare foto precise di un punto.
+- **Costo del quadplane:** i 4 motori verticali sono "peso morto" in crociera e consumano molto in transizione. Per questo i migliori spengono e bloccano le eliche verticali in avanti, e la transizione (da verticale a orizzontale) e' la fase critica da curare nel software.
+- **Alternative di architettura:** *tilt-rotor* (4 motori frontali che si inclinano + spingente: niente peso morto ma piu' complesso), *coassiale + ventola intubata* (scafo in schiuma EPP, leggero e a prova d'urto: tipico dei VTOL hobby), *tailsitter* (decolla "in piedi", es. WingtraRAY).
+- **Software:** ArduPilot e' lo standard aperto per i VTOL (tiene il costo basso, interfaccia meno rifinita di quelle chiuse dei big).
+- **Regola di prodotto:** piccolo e piegabile = vendibile. Il cliente compra "decollo da un cortile, stessa autonomia di un aereo".
+
+### Mercato (prezzi indicativi trovati sul web)
+| Fascia | Esempi | Dati principali | Prezzo |
+|---|---|---|---|
+| **Hobby / schiuma** | 4DRC V31 (coassiale + ventola), Eflite UMX Radian | Portata <1,2 km, senza telemetria, riparazione in schiuma sotto 8 USD | 129-199 USD |
+| **Hobby FPV avanzato** | HEEWING Ranger T1 VTOL FPV | 30-45 min, camera FPV inclusa | circa 149-619 USD (liste diverse, da verificare) |
+| **Hobby tilt-rotor (kit)** | HEQUAV K1 PRO (4 motori frontali inclinabili + spingente) | Per FPV a lungo raggio | da verificare |
+| **Pro entry** | DeltaQuad Pro (ala a delta, ArduPilot) | 110+ min, 1,2 kg di carico, oltre 100 km | tra i piu' economici dei VTOL pro |
+| **Pro mappatura** | Quantum Systems Trinity Pro | 90+ min, 700 ha, ~800 g | circa 21.950-23.790 USD |
+| **Pro mappatura** | senseFly eBee X | 90 min, ~500 g, precisione 1,5 cm RTK | circa 17.500-22.000 USD |
+| **Pro lunga autonomia** | Autel Dragonfish Pro | 179 min, link 45 km, 2,2 kg | su preventivo |
+| **Pesante (fornitori cinesi)** | JOUAV CW-15/CW-25E; Moneypro M380 (3,8 m, fino a 15 kg) | Quad + spingente, ruggedizzati | su preventivo |
+
+Prezzo minimo per un VTOL "pro" pronto al volo: 17.000-20.000 USD. **Vuoto di mercato:** quasi non esistono VTOL consumer tra 200 e 5.000 EUR. Li' c'e' spazio per noi.
+
+### Struttura categorie per il negozio (da creare)
+| Categoria | Sottocategorie |
+|---|---|
+| **Ala fissa VTOL** (id `vtol`) | Primo VTOL e FPV (`vtol-hobby`), Mappatura e rilievi (`vtol-mappatura`), Ispezione linee e condotte (`vtol-corridoi`), Consegne e logistica (`vtol-consegne`), Ricerca e soccorso (`vtol-soccorso`) |
+
+### Idee di prodotto (profittevoli, da valutare con fornitore)
+1. **VTOL Primo Volo (200-450 EUR):** scafo EPP, 4 motori + spingente, piegabile, controllo di quota/posizione automatico. Riempie il vuoto tra 200 e 5.000 EUR.
+2. **VTOL FPV Lungo raggio (600-1.200 EUR):** kit tilt-rotor o quadplane con camera FPV, 45-60 min.
+3. **VTOL Mappa (2.500-6.000 EUR):** camera 20 MP con georeferenziazione, software di mappatura incluso: per agricoltori, geometri, cave. Prezzo molto sotto i 17.000 USD dei pro.
+4. **VTOL Corridoio (3.500-8.000 EUR):** zoom e termico per linee e condotte; collegato alla categoria Lavoro.
+5. **VTOL Consegna (1.200-3.000 EUR):** 1-3 kg con sgancio, per isole, cascine, rifugi. Collegato alla scala Carico.
+6. **VTOL Soccorso (3.000-8.000 EUR):** termico e zoom per ricerca persone, per protezione civile (collegato alla categoria Sicurezza).
+7. **Accessori VTOL:** valigia pieghevole, set eliche verticali, batterie pesanti, rampa/catapulta di emergenza, scheda ArduPilot preconfigurata.
+8. **Software di missione:** pianificatore per mappatura e corridoi, incluso o in abbonamento.
+
+**Da verificare:** regole ENAC su categoria, peso e volo fuori vista (BVLOS) per gli ala fissa; assicurazione; omologazione/certificazione dei prodotti da carico; i prezzi vanno confermati coi fornitori.
+
+Fonti principali: Dronetrader (guide VTOL 2026), Alibaba buying guides (RC VTOL 2026), UAVMODEL, JOUAV, Wingtra, Pilot Institute, solidaitech.com.
