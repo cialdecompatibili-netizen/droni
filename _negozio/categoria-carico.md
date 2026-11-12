@@ -1,8 +1,8 @@
 ---
 layout: negozio-categoria
-title: "Carico e agricoltura"
+title: "Carico"
 cid: carico
 permalink: /negozio/categoria/carico/
-description: "Droni da trasporto e agricoli: da 100 g a 100 kg di carico, per pesca, consegne e trattamenti."
+description: "Droni da trasporto con sgancio: da 100 g per la pesca fino a 10 kg per consegne e lavoro."
 ref: shop-cat-carico
 ---

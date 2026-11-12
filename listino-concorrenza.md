@@ -184,3 +184,22 @@ Problemi reali risolti (priorita' per profitto): trattamenti in vigneti/terreni 
 ## 9. Categoria Ricambi (idea)
 
 Ricambi dei nostri modelli: eliche (coppie), motori, bracci, protezioni eliche, gimbal/camera, scocche, cavi. Margine alto e acquisto ricorrente. Da popolare dopo i droni.
+
+## 10. STRUTTURA DEFINITIVA CARICO / AGRICOLTURA / LAVORO (12/11/2026, decisione di Mirco)
+
+Budget di sviluppo senza limiti: si fa il catalogo completo e il piu' realistico possibile.
+
+| Categoria (id) | Cosa contiene | Prodotti Skyora |
+|---|---|---|
+| **Carico** (`carico`) | Droni da trasporto con sgancio, da 100 g a 10 kg | Cargo 100 (100 g, pesca), Cargo 500 (500 g), Cargo 1K (1 kg), Cargo 5 (5 kg), Cargo 10 (10 kg) |
+| **Agricoltura** (`agricoltura`) | Da 10 kg di carico in su: irrorazione e spargimento fertilizzante/semi | Agro 20 (20 kg irr. / 25 kg spargim., classe T25), Agro 40 (classe T50), Agro 100 (classe T100: 100 L / 150 L / sollevamento) |
+| **Droni da lavoro** (`lavoro`) | Come li usano davvero le aziende: linee elettriche e cavi, ispezioni, pulizia, antincendio, sorveglianza | Lineman (posa fune, riparazione cavi, dissuasori), Inspector Dock (termico+zoom con base che ricarica), Clean (lavaggio facciate e pannelli), Fire (capsule estinguenti, fari), Sentinel Dock (drone in una scatola) |
+
+Prezzi in negozio = TARGET di posizionamento, da confermare col fornitore. Riferimenti reali trovati: SwellPro Fisherman FD1+ circa 1.374 EUR (esca 2,2 kg), FD3 circa 2.469 USD (esca 2 kg), Fisherman MAX circa 2.339 USD (esca 3,2 kg), Splash Drone 4 circa 2.999 USD (carico 2 kg); DJI Agras T25/T50 in Europa dal 2024, T100/T70P/T25P dal nov 2025 (prezzi solo tramite rivenditori, non pubblici).
+
+**Come le usano nel lavoro (fonti: DJI Enterprise, Aerial-Core UE)**
+- Linee elettriche: ispezione con LiDAR che aggancia conduttori e funi di guardia (Matrice 400 + L2, Matrice 5T), progetto UE Aerial-Core per droni che montano dissuasori, distanziatori e puliscono gli isolatori.
+- Sorveglianza/ispezioni automatiche: base "Dock" con drone Matrice 30 che decolla, ricarica in circa 25 minuti e lavora da -35 a +50 gradi (aeroporti, siti logistici, cantieri).
+- Sicurezza pubblica, ricerca persone al buio con termico, rilievi, pannelli solari.
+
+**Da verificare PRIMA di vendere:** ENAC/D-Flight per peso e carico, abilitazione per irrorazione (fitosanitari fortemente regolati in Italia), assicurazione, lavori su linee elettriche solo con operatori autorizzati. Nel sito le schede Agro e Lineman dicono gia' di verificare le autorizzazioni.

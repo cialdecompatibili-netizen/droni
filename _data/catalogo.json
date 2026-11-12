@@ -38,16 +38,28 @@
       "descrizione": "Batterie, filtri, borse e assistenza per volare piu' a lungo."
     },
     {
-      "nome": "Carico e agricoltura",
+      "nome": "Carico",
       "id": "carico",
       "icona": "📦",
-      "descrizione": "Droni da trasporto e agricoli: da 100 g a 100 kg di carico, per pesca, consegne e trattamenti."
+      "descrizione": "Droni da trasporto con sgancio: da 100 g per la pesca fino a 10 kg per consegne e lavoro."
     },
     {
       "nome": "Ricambi",
       "id": "ricambi",
       "icona": "🔧",
       "descrizione": "Eliche, motori, bracci, gimbal e protezioni per tenere il drone sempre in volo."
+    },
+    {
+      "nome": "Agricoltura",
+      "id": "agricoltura",
+      "icona": "🌾",
+      "descrizione": "Droni agricoli da 10 kg in su: irrorazione e spargimento di fertilizzante su campi, vigne e frutteti."
+    },
+    {
+      "nome": "Droni da lavoro",
+      "id": "lavoro",
+      "icona": "🛠️",
+      "descrizione": "Per il lavoro vero: linee elettriche e cavi, ispezioni, pulizia, antincendio e sorveglianza."
     }
   ],
   "prodotti": [
@@ -229,6 +241,162 @@
       "descrizione_completa": "Copertura e assistenza dedicata per il primo anno.\nCondizioni dettagliate su richiesta prima dell'acquisto.",
       "immagine": "assets/images/prodotti/assistenza-12.webp",
       "icona": "🔋",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "carico-100",
+      "nome": "Skyora Cargo 100",
+      "categoria": "carico",
+      "prezzo_centesimi": 34900,
+      "descrizione": "Micro drone da 100 g di carico: porta l'esca al largo.",
+      "descrizione_completa": "Carico utile 100 g con sgancio a gancio comandato dal radiocomando.\nPensato per la pesca da riva: lancia l'esca oltre i frangenti e torna da solo.",
+      "immagine": "assets/images/prodotti/carico-100.webp",
+      "icona": "🎣",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "carico-500",
+      "nome": "Skyora Cargo 500",
+      "categoria": "carico",
+      "prezzo_centesimi": 64900,
+      "descrizione": "Carico 500 g con camera: vedi dove cali l'esca.",
+      "descrizione_completa": "Carico utile 500 g, sgancio comandato e camera frontale per scegliere il punto.\nUtile per pesca a lungo raggio e piccole consegne.",
+      "immagine": "assets/images/prodotti/carico-500.webp",
+      "icona": "🎣",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "carico-1kg",
+      "nome": "Skyora Cargo 1K",
+      "categoria": "carico",
+      "prezzo_centesimi": 119000,
+      "descrizione": "Carico 1 kg, robusto e resistente all'acqua.",
+      "descrizione_completa": "Carico utile 1 kg con sgancio rinforzato e gambe galleggianti.\nPesca, recupero di piccoli oggetti, consegne leggere; ideale anche per piccoli trattamenti in aree ridotte.",
+      "immagine": "assets/images/prodotti/carico-1kg.webp",
+      "icona": "📦",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "carico-5kg",
+      "nome": "Skyora Cargo 5",
+      "categoria": "carico",
+      "prezzo_centesimi": 249000,
+      "descrizione": "Carico 5 kg con verricello e contenitore estraibile.",
+      "descrizione_completa": "Carico utile 5 kg, verricello e box per pacchi staccabile.\nConsegne in zone isolate, trasporto di materiali e attrezzi in cantiere.",
+      "immagine": "assets/images/prodotti/carico-5kg.webp",
+      "icona": "📦",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "carico-10kg",
+      "nome": "Skyora Cargo 10",
+      "categoria": "carico",
+      "prezzo_centesimi": 490000,
+      "descrizione": "Carico 10 kg: il piu' grande della linea Carico.",
+      "descrizione_completa": "Carico utile 10 kg, sei eliche, verricello e contenitore grande.\nLogistica in montagna, isole, cantieri e rifornimenti dove la strada non arriva.",
+      "immagine": "assets/images/prodotti/carico-10kg.webp",
+      "icona": "📦",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "agro-20",
+      "nome": "Skyora Agro 20",
+      "categoria": "agricoltura",
+      "prezzo_centesimi": 1490000,
+      "descrizione": "Agricolo compatto: 20 kg irrorazione, 25 kg spargimento.",
+      "descrizione_completa": "Serbatoio per irrorazione fino a 20 kg e spargimento fino a 25 kg di fertilizzante o semi.\nPer piccole e medie aziende, vigne in pendenza e frutteti: evita ostacoli e segue il terreno.\nL'uso per i prodotti fitosanitari e' regolato: verificare autorizzazioni prima dell'impiego.",
+      "immagine": "assets/images/prodotti/agro-20.webp",
+      "icona": "🌾",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "agro-40",
+      "nome": "Skyora Agro 40",
+      "categoria": "agricoltura",
+      "prezzo_centesimi": 2490000,
+      "descrizione": "Agricolo per aziende grandi: 40 kg irrorazione, 50 kg spargimento.",
+      "descrizione_completa": "Capacita' doppia rispetto ad Agro 20, radar frontale e volo a quota costante dal terreno.\nIdeale per cereali, riso e grandi superfici; ricarica rapida tra un lotto e l'altro.\nUso fitosanitari soggetto a normativa: verificare autorizzazioni.",
+      "immagine": "assets/images/prodotti/agro-40.webp",
+      "icona": "🌾",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "agro-100",
+      "nome": "Skyora Agro 100",
+      "categoria": "agricoltura",
+      "prezzo_centesimi": 3990000,
+      "descrizione": "Il gigante: 100 L irrorazione, 150 L spargimento, sollevamento pesante.",
+      "descrizione_completa": "Per grandi aziende e contoterzisti: fino a 100 L di irrorazione e 150 L di spargimento, con kit di sollevamento per trasportare materiali.\nSistema di sicurezza a radar e sensori. Per peso e carico richiede autorizzazioni ENAC e operatore abilitato.",
+      "immagine": "assets/images/prodotti/agro-100.webp",
+      "icona": "🌾",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "lavoro-linee",
+      "nome": "Skyora Lineman",
+      "categoria": "lavoro",
+      "prezzo_centesimi": 1890000,
+      "descrizione": "Per le linee elettriche: posa funi, riparazioni e dissuasori.",
+      "descrizione_completa": "Telaio in carbonio con braccio robotico e pinza: stende la fune guida tra i tralicci, monta dissuasori per uccelli e distanziatori, fa piccole riparazioni su cavi.\nLavora senza far salire personale ai tralicci: meno rischi e meno fermi linea.",
+      "immagine": "assets/images/prodotti/lavoro-linee.webp",
+      "icona": "🔧",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "lavoro-ispezione",
+      "nome": "Skyora Inspector Dock",
+      "categoria": "lavoro",
+      "prezzo_centesimi": 990000,
+      "descrizione": "Ispezione termica e zoom con base di ricarica automatica.",
+      "descrizione_completa": "Doppia camera termica e zoom, volo programmato con ritorno alla base che ricarica da sola.\nPer impianti fotovoltaici, linee, ponti e cantieri: missioni ripetute senza operatore.",
+      "immagine": "assets/images/prodotti/lavoro-ispezione.webp",
+      "icona": "🔍",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "lavoro-pulizia",
+      "nome": "Skyora Clean",
+      "categoria": "lavoro",
+      "prezzo_centesimi": 1290000,
+      "descrizione": "Lava facciate e pannelli solari da terra.",
+      "descrizione_completa": "Serbatoio d'acqua e tubo con ugello: pulisce vetrate, facciate, tetti e pannelli fotovoltaici senza ponteggi.\nRisparmia ore di lavoro in quota e riduce i rischi per gli operatori.",
+      "immagine": "assets/images/prodotti/lavoro-pulizia.webp",
+      "icona": "💧",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "lavoro-antincendio",
+      "nome": "Skyora Fire",
+      "categoria": "lavoro",
+      "prezzo_centesimi": 1590000,
+      "descrizione": "Antincendio e soccorso: capsule estinguenti e fari.",
+      "descrizione_completa": "Lancia capsule estinguenti su piccoli focolai e illumina la zona con fari potenti.\nPer protezione civile, aziende agricole e boschi: arriva dove il mezzo a terra non riesce.",
+      "immagine": "assets/images/prodotti/lavoro-antincendio.webp",
+      "icona": "🚒",
+      "visibile": true
+    },
+    {
+      "tipo": "fisico",
+      "id": "lavoro-dock",
+      "nome": "Skyora Sentinel Dock",
+      "categoria": "lavoro",
+      "prezzo_centesimi": 2490000,
+      "descrizione": "Drone in una scatola: sorveglianza automatica di cantieri e magazzini.",
+      "descrizione_completa": "Stazione che apre il coperchio, fa decollare il drone sul percorso, lo riceve e lo ricarica.\nSorveglianza notturna e controlli periodici di cantieri, logistica e aree industriali, senza pilota.",
+      "immagine": "assets/images/prodotti/lavoro-dock.webp",
+      "icona": "🛡️",
       "visibile": true
     }
   ]

@@ -1,0 +1,8 @@
+---
+layout: negozio-prodotto
+title: "Skyora Inspector Dock"
+pid: lavoro-ispezione
+permalink: /negozio/lavoro-ispezione/
+description: "Ispezione termica e zoom con base di ricarica automatica."
+ref: shop-prod-lavoro-ispezione
+---

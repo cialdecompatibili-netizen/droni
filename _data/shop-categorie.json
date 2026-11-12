@@ -24,11 +24,19 @@
     "slug": "accessori"
   },
   {
-    "nome": "Carico e agricoltura",
+    "nome": "Carico",
     "slug": "carico"
   },
   {
     "nome": "Ricambi",
     "slug": "ricambi"
+  },
+  {
+    "nome": "Agricoltura",
+    "slug": "agricoltura"
+  },
+  {
+    "nome": "Droni da lavoro",
+    "slug": "lavoro"
   }
 ]
