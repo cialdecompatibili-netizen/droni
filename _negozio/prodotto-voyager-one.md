@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Corvo Max"
+title: "Corvo Max"
 pid: voyager-one
 permalink: /negozio/voyager-one/
 description: "Sensore grande per foto e video di qualita' in un drone leggero."

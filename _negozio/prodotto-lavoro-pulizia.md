@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Cormorano"
+title: "Cormorano"
 pid: lavoro-pulizia
 permalink: /negozio/lavoro-pulizia/
 description: "Lava facciate e pannelli solari da terra."

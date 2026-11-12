@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Grifone"
+title: "Grifone"
 pid: carico-1kg
 permalink: /negozio/carico-1kg/
 description: "Carico 1 kg, robusto e resistente all'acqua."

@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Pellegrino"
+title: "Pellegrino"
 pid: lavoro-antincendio
 permalink: /negozio/lavoro-antincendio/
 description: "Antincendio e soccorso: capsule estinguenti e fari."

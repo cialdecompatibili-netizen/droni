@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Corvo (Combo)"
+title: "Corvo (Combo)"
 pid: voyager-4k
 permalink: /negozio/voyager-4k/
 description: "Leggero con batterie extra e borsa inclusi: parti subito."

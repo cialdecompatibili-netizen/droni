@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Picchio"
+title: "Picchio"
 pid: lavoro-linee
 permalink: /negozio/lavoro-linee/
 description: "Per le linee elettriche: posa funi, riparazioni e dissuasori."

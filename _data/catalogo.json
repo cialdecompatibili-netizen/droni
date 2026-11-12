@@ -108,7 +108,7 @@
     {
       "tipo": "fisico",
       "id": "spark",
-      "nome": "Voltair Colibrì",
+      "nome": "Colibrì",
       "categoria": "primo-drone",
       "prezzo_centesimi": 14900,
       "descrizione": "Micro drone per provare: selfie, vlog e riprese da vicino.",
@@ -120,7 +120,7 @@
     {
       "tipo": "fisico",
       "id": "spark-2",
-      "nome": "Voltair Colibrì Plus",
+      "nome": "Colibrì Plus",
       "categoria": "primo-drone",
       "prezzo_centesimi": 21900,
       "descrizione": "Evoluzione di Spark: piu' stabile e con camera migliore, sempre facile.",
@@ -132,7 +132,7 @@
     {
       "tipo": "fisico",
       "id": "loop",
-      "nome": "Voltair Gheppio",
+      "nome": "Gheppio",
       "categoria": "primo-drone",
       "prezzo_centesimi": 29900,
       "descrizione": "Pieghevole e protetto, per vlog e uso di tutti i giorni.",
@@ -144,7 +144,7 @@
     {
       "tipo": "fisico",
       "id": "voyager-4k",
-      "nome": "Voltair Corvo (Combo)",
+      "nome": "Corvo (Combo)",
       "categoria": "viaggio-vlog",
       "prezzo_centesimi": 33900,
       "descrizione": "Leggero con batterie extra e borsa inclusi: parti subito.",
@@ -156,7 +156,7 @@
     {
       "tipo": "fisico",
       "id": "voyager-pro",
-      "nome": "Voltair Corvo Pro",
+      "nome": "Corvo Pro",
       "categoria": "viaggio-vlog",
       "prezzo_centesimi": 56900,
       "descrizione": "Evita gli ostacoli e segue chi si muove: sport e viaggi.",
@@ -168,7 +168,7 @@
     {
       "tipo": "fisico",
       "id": "voyager-one",
-      "nome": "Voltair Corvo Max",
+      "nome": "Corvo Max",
       "categoria": "viaggio-vlog",
       "prezzo_centesimi": 69900,
       "descrizione": "Sensore grande per foto e video di qualita' in un drone leggero.",
@@ -180,7 +180,7 @@
     {
       "tipo": "fisico",
       "id": "aurora-dual",
-      "nome": "Voltair Aquila",
+      "nome": "Aquila",
       "categoria": "foto-video",
       "prezzo_centesimi": 89900,
       "descrizione": "Doppia camera (grandangolo e tele) per foto e video piu' professionali.",
@@ -192,7 +192,7 @@
     {
       "tipo": "fisico",
       "id": "aurora-cine",
-      "nome": "Voltair Aquila Cine",
+      "nome": "Aquila Cine",
       "categoria": "foto-video",
       "prezzo_centesimi": 169000,
       "descrizione": "Per cinema, pubblicita' e fotografi che producono ogni giorno.",
@@ -204,7 +204,7 @@
     {
       "tipo": "fisico",
       "id": "raptor-fpv",
-      "nome": "Voltair Falco",
+      "nome": "Falco",
       "categoria": "fpv",
       "prezzo_centesimi": 49900,
       "descrizione": "Volo immersivo con visore: acrobazie e adrenalina.",
@@ -216,7 +216,7 @@
     {
       "tipo": "fisico",
       "id": "atlas-survey",
-      "nome": "Voltair Albatro",
+      "nome": "Albatro",
       "categoria": "professionali",
       "prezzo_centesimi": 299000,
       "descrizione": "Mappatura e topografia: rilievi di cantieri, terreni e coperture.",
@@ -228,7 +228,7 @@
     {
       "tipo": "fisico",
       "id": "atlas-thermal",
-      "nome": "Voltair Astore",
+      "nome": "Astore",
       "categoria": "professionali",
       "prezzo_centesimi": 399000,
       "descrizione": "Camera termica per ispezioni, sicurezza e ricerca persone.",
@@ -288,7 +288,7 @@
     {
       "tipo": "fisico",
       "id": "carico-100",
-      "nome": "Voltair Poiana",
+      "nome": "Poiana",
       "categoria": "carico",
       "prezzo_centesimi": 34900,
       "descrizione": "Micro drone da 100 g di carico: porta l'esca al largo.",
@@ -300,7 +300,7 @@
     {
       "tipo": "fisico",
       "id": "carico-500",
-      "nome": "Voltair Smeriglio",
+      "nome": "Smeriglio",
       "categoria": "carico",
       "prezzo_centesimi": 64900,
       "descrizione": "Carico 500 g con camera: vedi dove cali l'esca.",
@@ -312,7 +312,7 @@
     {
       "tipo": "fisico",
       "id": "carico-1kg",
-      "nome": "Voltair Grifone",
+      "nome": "Grifone",
       "categoria": "carico",
       "prezzo_centesimi": 119000,
       "descrizione": "Carico 1 kg, robusto e resistente all'acqua.",
@@ -324,7 +324,7 @@
     {
       "tipo": "fisico",
       "id": "carico-5kg",
-      "nome": "Voltair Struzzo",
+      "nome": "Struzzo",
       "categoria": "carico",
       "prezzo_centesimi": 249000,
       "descrizione": "Carico 5 kg con verricello e contenitore estraibile.",
@@ -336,7 +336,7 @@
     {
       "tipo": "fisico",
       "id": "carico-10kg",
-      "nome": "Voltair Pellicano",
+      "nome": "Pellicano",
       "categoria": "carico",
       "prezzo_centesimi": 490000,
       "descrizione": "Carico 10 kg: il piu' grande della linea Carico.",
@@ -348,7 +348,7 @@
     {
       "tipo": "fisico",
       "id": "agro-20",
-      "nome": "Voltair Gallo",
+      "nome": "Gallo",
       "categoria": "agricoltura",
       "prezzo_centesimi": 1490000,
       "descrizione": "Agricolo compatto: 20 kg irrorazione, 25 kg spargimento.",
@@ -360,7 +360,7 @@
     {
       "tipo": "fisico",
       "id": "agro-40",
-      "nome": "Voltair Gallo Pro",
+      "nome": "Gallo Pro",
       "categoria": "agricoltura",
       "prezzo_centesimi": 2490000,
       "descrizione": "Agricolo per aziende grandi: 40 kg irrorazione, 50 kg spargimento.",
@@ -372,7 +372,7 @@
     {
       "tipo": "fisico",
       "id": "agro-100",
-      "nome": "Voltair Condor",
+      "nome": "Condor",
       "categoria": "agricoltura",
       "prezzo_centesimi": 3990000,
       "descrizione": "Il gigante: 100 L irrorazione, 150 L spargimento, sollevamento pesante.",
@@ -384,7 +384,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-linee",
-      "nome": "Voltair Picchio",
+      "nome": "Picchio",
       "categoria": "linee-cavi",
       "prezzo_centesimi": 1890000,
       "descrizione": "Per le linee elettriche: posa funi, riparazioni e dissuasori.",
@@ -396,7 +396,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-ispezione",
-      "nome": "Voltair Sparviero",
+      "nome": "Sparviero",
       "categoria": "ispezioni",
       "prezzo_centesimi": 990000,
       "descrizione": "Ispezione termica e zoom con base di ricarica automatica.",
@@ -408,7 +408,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-pulizia",
-      "nome": "Voltair Cormorano",
+      "nome": "Cormorano",
       "categoria": "pulizia",
       "prezzo_centesimi": 1290000,
       "descrizione": "Lava facciate e pannelli solari da terra.",
@@ -420,7 +420,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-antincendio",
-      "nome": "Voltair Pellegrino",
+      "nome": "Pellegrino",
       "categoria": "antincendio",
       "prezzo_centesimi": 1590000,
       "descrizione": "Antincendio e soccorso: capsule estinguenti e fari.",
@@ -432,7 +432,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-dock",
-      "nome": "Voltair Rapace",
+      "nome": "Rapace",
       "categoria": "sorveglianza",
       "prezzo_centesimi": 2490000,
       "descrizione": "Drone in una scatola: sorveglianza automatica di cantieri e magazzini.",

@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Colibrì"
+title: "Colibrì"
 pid: spark
 permalink: /negozio/spark/
 description: "Micro drone per provare: selfie, vlog e riprese da vicino."

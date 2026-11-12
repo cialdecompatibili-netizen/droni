@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Rapace"
+title: "Rapace"
 pid: lavoro-dock
 permalink: /negozio/lavoro-dock/
 description: "Drone in una scatola: sorveglianza automatica di cantieri e magazzini."

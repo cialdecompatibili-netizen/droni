@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Sparviero"
+title: "Sparviero"
 pid: lavoro-ispezione
 permalink: /negozio/lavoro-ispezione/
 description: "Ispezione termica e zoom con base di ricarica automatica."

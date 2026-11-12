@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Albatro"
+title: "Albatro"
 pid: atlas-survey
 permalink: /negozio/atlas-survey/
 description: "Mappatura e topografia: rilievi di cantieri, terreni e coperture."

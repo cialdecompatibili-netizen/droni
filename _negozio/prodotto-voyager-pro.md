@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Voltair Corvo Pro"
+title: "Corvo Pro"
 pid: voyager-pro
 permalink: /negozio/voyager-pro/
 description: "Evita gli ostacoli e segue chi si muove: sport e viaggi."
