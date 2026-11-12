@@ -58,5 +58,9 @@
   {
     "nome": "Sorveglianza e docking",
     "slug": "sorveglianza"
+  },
+  {
+    "nome": "Sicurezza pubblica e settori critici",
+    "slug": "sicurezza"
   }
 ]

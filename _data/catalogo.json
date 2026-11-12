@@ -60,7 +60,7 @@
       "nome": "Droni da lavoro",
       "id": "lavoro",
       "icona": "🛠️",
-      "descrizione": "Per il lavoro vero: linee elettriche e cavi, ispezioni, pulizia, antincendio e sorveglianza."
+      "descrizione": "Per il lavoro vero: linee elettriche e cavi, ispezioni, pulizia e agricoltura."
     },
     {
       "nome": "Linee elettriche e cavi",
@@ -88,21 +88,27 @@
       "id": "antincendio",
       "icona": "🚒",
       "descrizione": "Capsule estinguenti, fari e supporto alle squadre di soccorso.",
-      "genitore": "lavoro"
+      "genitore": "sicurezza"
     },
     {
       "nome": "Sorveglianza e docking",
       "id": "sorveglianza",
       "icona": "🛰️",
       "descrizione": "Missioni ripetute con base di ricarica automatica, senza operatore.",
-      "genitore": "lavoro"
+      "genitore": "sicurezza"
+    },
+    {
+      "nome": "Sicurezza pubblica e settori critici",
+      "id": "sicurezza",
+      "icona": "🚨",
+      "descrizione": "Soccorso, antincendio, ricerca persone, protezione civile e sorveglianza di infrastrutture critiche."
     }
   ],
   "prodotti": [
     {
       "tipo": "fisico",
       "id": "spark",
-      "nome": "Skyora Spark",
+      "nome": "Voltair Colibrì",
       "categoria": "primo-drone",
       "prezzo_centesimi": 14900,
       "descrizione": "Micro drone per provare: selfie, vlog e riprese da vicino.",
@@ -114,7 +120,7 @@
     {
       "tipo": "fisico",
       "id": "spark-2",
-      "nome": "Skyora Spark 2",
+      "nome": "Voltair Colibrì Plus",
       "categoria": "primo-drone",
       "prezzo_centesimi": 21900,
       "descrizione": "Evoluzione di Spark: piu' stabile e con camera migliore, sempre facile.",
@@ -126,7 +132,7 @@
     {
       "tipo": "fisico",
       "id": "loop",
-      "nome": "Skyora Loop",
+      "nome": "Voltair Gheppio",
       "categoria": "primo-drone",
       "prezzo_centesimi": 29900,
       "descrizione": "Pieghevole e protetto, per vlog e uso di tutti i giorni.",
@@ -138,7 +144,7 @@
     {
       "tipo": "fisico",
       "id": "voyager-4k",
-      "nome": "Skyora Voyager 4K (Combo)",
+      "nome": "Voltair Corvo (Combo)",
       "categoria": "viaggio-vlog",
       "prezzo_centesimi": 33900,
       "descrizione": "Leggero con batterie extra e borsa inclusi: parti subito.",
@@ -150,7 +156,7 @@
     {
       "tipo": "fisico",
       "id": "voyager-pro",
-      "nome": "Skyora Voyager Pro",
+      "nome": "Voltair Corvo Pro",
       "categoria": "viaggio-vlog",
       "prezzo_centesimi": 56900,
       "descrizione": "Evita gli ostacoli e segue chi si muove: sport e viaggi.",
@@ -162,7 +168,7 @@
     {
       "tipo": "fisico",
       "id": "voyager-one",
-      "nome": "Skyora Voyager One",
+      "nome": "Voltair Corvo Max",
       "categoria": "viaggio-vlog",
       "prezzo_centesimi": 69900,
       "descrizione": "Sensore grande per foto e video di qualita' in un drone leggero.",
@@ -174,7 +180,7 @@
     {
       "tipo": "fisico",
       "id": "aurora-dual",
-      "nome": "Skyora Aurora Dual",
+      "nome": "Voltair Aquila",
       "categoria": "foto-video",
       "prezzo_centesimi": 89900,
       "descrizione": "Doppia camera (grandangolo e tele) per foto e video piu' professionali.",
@@ -186,7 +192,7 @@
     {
       "tipo": "fisico",
       "id": "aurora-cine",
-      "nome": "Skyora Aurora Cine",
+      "nome": "Voltair Aquila Cine",
       "categoria": "foto-video",
       "prezzo_centesimi": 169000,
       "descrizione": "Per cinema, pubblicita' e fotografi che producono ogni giorno.",
@@ -198,7 +204,7 @@
     {
       "tipo": "fisico",
       "id": "raptor-fpv",
-      "nome": "Skyora Raptor FPV",
+      "nome": "Voltair Falco",
       "categoria": "fpv",
       "prezzo_centesimi": 49900,
       "descrizione": "Volo immersivo con visore: acrobazie e adrenalina.",
@@ -210,7 +216,7 @@
     {
       "tipo": "fisico",
       "id": "atlas-survey",
-      "nome": "Skyora Atlas Survey",
+      "nome": "Voltair Albatro",
       "categoria": "professionali",
       "prezzo_centesimi": 299000,
       "descrizione": "Mappatura e topografia: rilievi di cantieri, terreni e coperture.",
@@ -222,7 +228,7 @@
     {
       "tipo": "fisico",
       "id": "atlas-thermal",
-      "nome": "Skyora Atlas Thermal",
+      "nome": "Voltair Astore",
       "categoria": "professionali",
       "prezzo_centesimi": 399000,
       "descrizione": "Camera termica per ispezioni, sicurezza e ricerca persone.",
@@ -282,7 +288,7 @@
     {
       "tipo": "fisico",
       "id": "carico-100",
-      "nome": "Skyora Cargo 100",
+      "nome": "Voltair Poiana",
       "categoria": "carico",
       "prezzo_centesimi": 34900,
       "descrizione": "Micro drone da 100 g di carico: porta l'esca al largo.",
@@ -294,7 +300,7 @@
     {
       "tipo": "fisico",
       "id": "carico-500",
-      "nome": "Skyora Cargo 500",
+      "nome": "Voltair Smeriglio",
       "categoria": "carico",
       "prezzo_centesimi": 64900,
       "descrizione": "Carico 500 g con camera: vedi dove cali l'esca.",
@@ -306,7 +312,7 @@
     {
       "tipo": "fisico",
       "id": "carico-1kg",
-      "nome": "Skyora Cargo 1K",
+      "nome": "Voltair Grifone",
       "categoria": "carico",
       "prezzo_centesimi": 119000,
       "descrizione": "Carico 1 kg, robusto e resistente all'acqua.",
@@ -318,7 +324,7 @@
     {
       "tipo": "fisico",
       "id": "carico-5kg",
-      "nome": "Skyora Cargo 5",
+      "nome": "Voltair Struzzo",
       "categoria": "carico",
       "prezzo_centesimi": 249000,
       "descrizione": "Carico 5 kg con verricello e contenitore estraibile.",
@@ -330,7 +336,7 @@
     {
       "tipo": "fisico",
       "id": "carico-10kg",
-      "nome": "Skyora Cargo 10",
+      "nome": "Voltair Pellicano",
       "categoria": "carico",
       "prezzo_centesimi": 490000,
       "descrizione": "Carico 10 kg: il piu' grande della linea Carico.",
@@ -342,7 +348,7 @@
     {
       "tipo": "fisico",
       "id": "agro-20",
-      "nome": "Skyora Agro 20",
+      "nome": "Voltair Gallo",
       "categoria": "agricoltura",
       "prezzo_centesimi": 1490000,
       "descrizione": "Agricolo compatto: 20 kg irrorazione, 25 kg spargimento.",
@@ -354,7 +360,7 @@
     {
       "tipo": "fisico",
       "id": "agro-40",
-      "nome": "Skyora Agro 40",
+      "nome": "Voltair Gallo Pro",
       "categoria": "agricoltura",
       "prezzo_centesimi": 2490000,
       "descrizione": "Agricolo per aziende grandi: 40 kg irrorazione, 50 kg spargimento.",
@@ -366,7 +372,7 @@
     {
       "tipo": "fisico",
       "id": "agro-100",
-      "nome": "Skyora Agro 100",
+      "nome": "Voltair Condor",
       "categoria": "agricoltura",
       "prezzo_centesimi": 3990000,
       "descrizione": "Il gigante: 100 L irrorazione, 150 L spargimento, sollevamento pesante.",
@@ -378,7 +384,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-linee",
-      "nome": "Skyora Lineman",
+      "nome": "Voltair Picchio",
       "categoria": "linee-cavi",
       "prezzo_centesimi": 1890000,
       "descrizione": "Per le linee elettriche: posa funi, riparazioni e dissuasori.",
@@ -390,7 +396,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-ispezione",
-      "nome": "Skyora Inspector Dock",
+      "nome": "Voltair Sparviero",
       "categoria": "ispezioni",
       "prezzo_centesimi": 990000,
       "descrizione": "Ispezione termica e zoom con base di ricarica automatica.",
@@ -402,7 +408,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-pulizia",
-      "nome": "Skyora Clean",
+      "nome": "Voltair Cormorano",
       "categoria": "pulizia",
       "prezzo_centesimi": 1290000,
       "descrizione": "Lava facciate e pannelli solari da terra.",
@@ -414,7 +420,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-antincendio",
-      "nome": "Skyora Fire",
+      "nome": "Voltair Pellegrino",
       "categoria": "antincendio",
       "prezzo_centesimi": 1590000,
       "descrizione": "Antincendio e soccorso: capsule estinguenti e fari.",
@@ -426,7 +432,7 @@
     {
       "tipo": "fisico",
       "id": "lavoro-dock",
-      "nome": "Skyora Sentinel Dock",
+      "nome": "Voltair Rapace",
       "categoria": "sorveglianza",
       "prezzo_centesimi": 2490000,
       "descrizione": "Drone in una scatola: sorveglianza automatica di cantieri e magazzini.",

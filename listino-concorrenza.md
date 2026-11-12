@@ -151,11 +151,11 @@ Parrot non fa piu' droni consumer: punta su sicurezza pubblica, difesa, ispezion
 
 ## 7. LOGICA DEL CATALOGO (12/11/2026) - da seguire per ogni nuova categoria
 
-**Regola di Mirco:** per OGNI categoria del negozio si analizza la concorrenza (DJI, Autel, Potensic, Parrot, altri), si individuano i modelli migliori e piu' venduti e si crea una nostra variante equivalente (nome nostro Skyora, niente marchi, niente loghi, stesse fasce di prezzo). Si privilegiano i prodotti che risolvono un problema reale e che il mercato chiede, con buon margine.
+**Regola di Mirco:** per OGNI categoria del negozio si analizza la concorrenza (DJI, Autel, Potensic, Parrot, altri), si individuano i modelli migliori e piu' venduti e si crea una nostra variante equivalente (nome nostro Voltair, niente marchi, niente loghi, stesse fasce di prezzo). Si privilegiano i prodotti che risolvono un problema reale e che il mercato chiede, con buon margine.
 
 **Passi, sempre uguali**
 1. Cerca sul web i modelli migliori della categoria e le fasce di prezzo reali; scrivili qui con fonte e affidabilita' (Alta/Media/Bassa).
-2. Crea la nostra variante per fascia (entry, media, pro) con nome Skyora, descrizione e prezzo target. I prezzi li conferma Mirco.
+2. Crea la nostra variante per fascia (entry, media, pro) con nome Voltair, descrizione e prezzo target. I prezzi li conferma Mirco.
 3. Categoria in `_data/catalogo.json` (+ `shop-categorie.json` + `_negozio/categoria-<id>.md`): script `claudetemp\pilota_droni\crea_categorie.py` come modello.
 4. Prodotti con `automation/prodotto.py` (foto incluse).
 5. FOTO: SOLO con `gemini_auto\img.py --profilo prodotto` e l'extra "It is a drone product or accessory, NOT a bottle. No text, no logos, no brand names, no labels." Mai `foto_sito.py` (fa bottiglie con etichetta). Guardare sempre la foto prima di pubblicare. Cambio account automatico dentro img.py.
@@ -166,7 +166,7 @@ Parrot non fa piu' droni consumer: punta su sicurezza pubblica, difesa, ispezion
 
 Mercato reale e in crescita: nuova generazione DJI Agras T100, T70P e T25P in vendita in Europa da novembre 2025, primo T100 autorizzato ENAC in Italia (Aermatica3D). Dati pubblici DJI: T100 fino a 100 L irrorazione / 150 L spargimento / circa 80-100 kg sollevamento; T70P 70 L / 100 L / 65 kg; T25 20 kg irrorazione / 25 kg spargimento. Alternative cinesi a minor prezzo (es. H200 agricolo/trasporto). Prezzi in euro NON ancora verificati: da cercare presso rivenditori italiani prima di fissare i nostri.
 
-Scala di carico pensata da Mirco (una variante Skyora per fascia):
+Scala di carico pensata da Mirco (una variante Voltair per fascia):
 
 | Fascia | Uso | Nota |
 |---|---|---|
@@ -179,7 +179,7 @@ Problemi reali risolti (priorita' per profitto): trattamenti in vigneti/terreni 
 
 **Da verificare PRIMA di vendere:** regole ENAC/D-Flight per droni sopra i 25 kg e con carico, patentino/abilitazione per l'irrorazione di prodotti fitosanitari (in Italia l'uso e' fortemente limitato e autorizzato), assicurazione, omologazione. Senza queste non si vende come "pronto all'uso" nel sito.
 
-**Prossimo passo:** cercare i prezzi reali italiani di T25/T50/T100 e di 2-3 alternative, poi creare i 4 prodotti Skyora (100 g, 1 kg, 10 kg, 100 kg) con foto e fissare i prezzi con Mirco.
+**Prossimo passo:** cercare i prezzi reali italiani di T25/T50/T100 e di 2-3 alternative, poi creare i 4 prodotti Voltair (100 g, 1 kg, 10 kg, 100 kg) con foto e fissare i prezzi con Mirco.
 
 ## 9. Categoria Ricambi (idea)
 
@@ -189,7 +189,7 @@ Ricambi dei nostri modelli: eliche (coppie), motori, bracci, protezioni eliche, 
 
 Budget di sviluppo senza limiti: si fa il catalogo completo e il piu' realistico possibile.
 
-| Categoria (id) | Cosa contiene | Prodotti Skyora |
+| Categoria (id) | Cosa contiene | Prodotti Voltair |
 |---|---|---|
 | **Carico** (`carico`) | Droni da trasporto con sgancio, da 100 g a 10 kg | Cargo 100 (100 g, pesca), Cargo 500 (500 g), Cargo 1K (1 kg), Cargo 5 (5 kg), Cargo 10 (10 kg) |
 | **Agricoltura** (`agricoltura`) | Da 10 kg di carico in su: irrorazione e spargimento fertilizzante/semi | Agro 20 (20 kg irr. / 25 kg spargim., classe T25), Agro 40 (classe T50), Agro 100 (classe T100: 100 L / 150 L / sollevamento) |

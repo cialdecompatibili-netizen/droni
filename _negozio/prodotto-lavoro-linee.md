@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Skyora Lineman"
+title: "Voltair Picchio"
 pid: lavoro-linee
 permalink: /negozio/lavoro-linee/
 description: "Per le linee elettriche: posa funi, riparazioni e dissuasori."

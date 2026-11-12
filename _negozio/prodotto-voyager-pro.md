@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Skyora Voyager Pro"
+title: "Voltair Corvo Pro"
 pid: voyager-pro
 permalink: /negozio/voyager-pro/
 description: "Evita gli ostacoli e segue chi si muove: sport e viaggi."

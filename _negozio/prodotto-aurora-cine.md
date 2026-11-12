@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Skyora Aurora Cine"
+title: "Voltair Aquila Cine"
 pid: aurora-cine
 permalink: /negozio/aurora-cine/
 description: "Per cinema, pubblicita' e fotografi che producono ogni giorno."

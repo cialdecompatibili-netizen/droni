@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Skyora Raptor FPV"
+title: "Voltair Falco"
 pid: raptor-fpv
 permalink: /negozio/raptor-fpv/
 description: "Volo immersivo con visore: acrobazie e adrenalina."

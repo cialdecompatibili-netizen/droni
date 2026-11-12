@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Skyora Clean"
+title: "Voltair Cormorano"
 pid: lavoro-pulizia
 permalink: /negozio/lavoro-pulizia/
 description: "Lava facciate e pannelli solari da terra."

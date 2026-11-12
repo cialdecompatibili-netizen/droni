@@ -1,6 +1,6 @@
 ---
 layout: negozio-prodotto
-title: "Skyora Inspector Dock"
+title: "Voltair Sparviero"
 pid: lavoro-ispezione
 permalink: /negozio/lavoro-ispezione/
 description: "Ispezione termica e zoom con base di ricarica automatica."
