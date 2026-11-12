@@ -47,7 +47,7 @@
       "prezzo_centesimi": 14900,
       "descrizione": "Micro drone per provare: selfie, vlog e riprese da vicino.",
       "descrizione_completa": "Il drone con cui iniziare senza ansia: piccolo, semplice, pensato per chi non ha mai volato.\nIdeale per: selfie dall'alto, brevi video per i social, prime ore di pratica.\nScheda tecnica completa su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/spark.webp",
       "icona": "🚁",
       "visibile": true
     },
@@ -59,7 +59,7 @@
       "prezzo_centesimi": 21900,
       "descrizione": "Evoluzione di Spark: piu' stabile e con camera migliore, sempre facile.",
       "descrizione_completa": "Per chi vuole un primo drone che non stanca dopo una settimana.\nIdeale per: principianti, regali, vlogger che vogliono zero complicazioni.\nScheda tecnica completa su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/spark-2.webp",
       "icona": "🚁",
       "visibile": true
     },
@@ -71,7 +71,7 @@
       "prezzo_centesimi": 29900,
       "descrizione": "Pieghevole e protetto, per vlog e uso di tutti i giorni.",
       "descrizione_completa": "Un drone da tenere sempre nello zaino, con video 4K per raccontare uscite e viaggi.\nIdeale per: creator, famiglie, uso quotidiano.\nScheda tecnica completa su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/loop.webp",
       "icona": "🚁",
       "visibile": true
     },
@@ -83,7 +83,7 @@
       "prezzo_centesimi": 33900,
       "descrizione": "Leggero con batterie extra e borsa inclusi: parti subito.",
       "descrizione_completa": "Il combo per chi viaggia: drone, batterie aggiuntive e borsa in un solo ordine.\nIdeale per: vacanze, escursioni, hobby con budget contenuto.\nScheda tecnica completa su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/voyager-4k.webp",
       "icona": "🧳",
       "visibile": true
     },
@@ -95,7 +95,7 @@
       "prezzo_centesimi": 56900,
       "descrizione": "Evita gli ostacoli e segue chi si muove: sport e viaggi.",
       "descrizione_completa": "Per riprendere persone in movimento senza pensare ai comandi.\nIdeale per: sport, bici, trekking, riprese di famiglia.\nScheda tecnica completa su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/voyager-pro.webp",
       "icona": "🧳",
       "visibile": true
     },
@@ -107,7 +107,7 @@
       "prezzo_centesimi": 69900,
       "descrizione": "Sensore grande per foto e video di qualita' in un drone leggero.",
       "descrizione_completa": "Il top della linea Voyager per chi vuole immagini migliori senza portarsi dietro un drone pesante.\nIdeale per: foto di viaggio, paesaggi, piccoli lavori.\nScheda tecnica completa su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/voyager-one.webp",
       "icona": "🧳",
       "visibile": true
     },
@@ -119,7 +119,7 @@
       "prezzo_centesimi": 89900,
       "descrizione": "Doppia camera (grandangolo e tele) per foto e video piu' professionali.",
       "descrizione_completa": "Due obiettivi per scegliere l'inquadratura: ampia sul paesaggio o ravvicinata sul dettaglio.\nIdeale per: immobiliare, turismo, eventi, creator.\nScheda tecnica completa su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/aurora-dual.webp",
       "icona": "📷",
       "visibile": true
     },
@@ -131,7 +131,7 @@
       "prezzo_centesimi": 169000,
       "descrizione": "Per cinema, pubblicita' e fotografi che producono ogni giorno.",
       "descrizione_completa": "La macchina per chi consegna lavori a clienti: camera di fascia alta e gimbal evoluto.\nIdeale per: spot, video aziendali, immobili di pregio.\nScheda tecnica completa su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/aurora-cine.webp",
       "icona": "📷",
       "visibile": true
     },
@@ -143,7 +143,7 @@
       "prezzo_centesimi": 49900,
       "descrizione": "Volo immersivo con visore: acrobazie e adrenalina.",
       "descrizione_completa": "Si vola guardando attraverso il drone, con una sensazione unica.\nIdeale per: appassionati di volo acrobatico e riprese dinamiche.\nConsigliato dopo qualche ora di pratica con un drone piu' semplice.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/raptor-fpv.webp",
       "icona": "🥽",
       "visibile": true
     },
@@ -155,7 +155,7 @@
       "prezzo_centesimi": 299000,
       "descrizione": "Mappatura e topografia: rilievi di cantieri, terreni e coperture.",
       "descrizione_completa": "Per tecnici e imprese che devono misurare e documentare dall'alto.\nIdeale per: topografia, agricoltura di precisione, edilizia.\nPrezzo e configurazione da confermare su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/atlas-survey.webp",
       "icona": "🛰️",
       "visibile": true
     },
@@ -167,7 +167,7 @@
       "prezzo_centesimi": 399000,
       "descrizione": "Camera termica per ispezioni, sicurezza e ricerca persone.",
       "descrizione_completa": "Vede il calore: trova dispersioni, pannelli solari guasti, persone disperse.\nIdeale per: ispezioni industriali, impianti fotovoltaici, soccorso.\nPrezzo e configurazione da confermare su richiesta.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/atlas-thermal.webp",
       "icona": "🛰️",
       "visibile": true
     },
@@ -179,7 +179,7 @@
       "prezzo_centesimi": 5900,
       "descrizione": "Piu' voli senza fermarti: la prima cosa da aggiungere.",
       "descrizione_completa": "La batteria dura poco: una seconda raddoppia il divertimento.\nCompatibile con la linea indicata nella scheda: chiedici quale scegliere.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/batteria-extra.webp",
       "icona": "🔋",
       "visibile": true
     },
@@ -191,7 +191,7 @@
       "prezzo_centesimi": 3900,
       "descrizione": "Video piu' fluidi con luce forte.",
       "descrizione_completa": "Tre filtri per girare con il sole senza bruciare le immagini.\nChiedici quale set e' compatibile con il tuo modello.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/filtri-nd.webp",
       "icona": "🔋",
       "visibile": true
     },
@@ -203,7 +203,7 @@
       "prezzo_centesimi": 2900,
       "descrizione": "Drone, telecomando e batterie in un solo zaino.",
       "descrizione_completa": "Protegge il drone in viaggio e tiene tutto in ordine.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/borsa.webp",
       "icona": "🔋",
       "visibile": true
     },
@@ -215,7 +215,7 @@
       "prezzo_centesimi": 5900,
       "descrizione": "Un aiuto in piu' se qualcosa va storto nel primo anno.",
       "descrizione_completa": "Copertura e assistenza dedicata per il primo anno.\nCondizioni dettagliate su richiesta prima dell'acquisto.",
-      "immagine": "",
+      "immagine": "assets/images/prodotti/assistenza-12.webp",
       "icona": "🔋",
       "visibile": true
     }
