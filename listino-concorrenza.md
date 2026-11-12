@@ -250,3 +250,50 @@ Prezzo minimo per un VTOL "pro" pronto al volo: 17.000-20.000 USD. **Vuoto di me
 **Da verificare:** regole ENAC su categoria, peso e volo fuori vista (BVLOS) per gli ala fissa; assicurazione; omologazione/certificazione dei prodotti da carico; i prezzi vanno confermati coi fornitori.
 
 Fonti principali: Dronetrader (guide VTOL 2026), Alibaba buying guides (RC VTOL 2026), UAVMODEL, JOUAV, Wingtra, Pilot Institute, solidaitech.com.
+
+
+---
+
+## 12. ALTRE IDEE "CON LOGICA" COME IL VTOL (12/11/2026)
+
+Regola che ha funzionato col VTOL: **prendere un'architettura che i professionisti vendono a 15-25 mila euro e farne una versione piccola, pieghevole e sotto i 5.000 euro**. Stessa logica applicata ad altri casi. Le voci 1-2 hanno dati dal web, le altre sono idee mie da verificare con una ricerca.
+
+### 1. Drone a cavo (tethered): volo senza limiti di tempo (dati dal web)
+- Il drone e' collegato a terra da un cavo che porta corrente e dati: puo' stare in volo ore o giorni, finche' la base ha energia. Un sistema come Khronos (Elistair) dichiara fino a 24 ore.
+- Stazioni professionali di cavo: circa 9.400-10.400 EUR (es. CZI TK3); fornitori britannici parlano di circa 10.000 GBP e fino a 10 volte il prezzo del drone.
+- Per contro, un prodotto consumer come Fotokite costa meno di 300 USD (camera volante a cavo). **Vuoto di mercato: kit a cavo per droni prosumer tra 1.000 e 3.000 EUR.**
+- Mercato: stime diverse tra le fonti (tra 240 e 530 milioni di USD nel 2025-2026, crescita circa 8-15% annuo): non fidarsi di un numero solo.
+- Usi: eventi, cantieri, controllo di parcheggi e porti, antincendio, ponte radio. Idea prodotto: **Kit Cavo** (stazione + cavo + adattatori per droni prosumer), **Drone a Cavo Cantiere**, **Palo con drone** (tether su mast).
+
+### 2. Drone-in-a-box: attenzione ai costi nascosti (dati dal web)
+- Base con ricarica e cambio batteria automatici, missioni ripetute senza operatore. Il vero costo annuale include energia, comunicazioni, controlli di sicurezza e ricambi (batterie, eliche, guarnizioni, riscaldatori): non e' nel preventivo.
+- Idea: **base piu' semplice e a basso costo** per ispezione e sorveglianza di piccoli siti (campo fotovoltaico, cava, azienda agricola), venduta come abbonamento, con ricambi inclusi.
+
+### 3. Drone modulare con vani intercambiabili (idea)
+- Una cellula di volo (un telaio, 4 motori) con vani per: camera, termico, spruzzatore, sgancio, faro. **Un telaio, sei prodotti**: un magazzino solo, margine alto sui moduli.
+- Pubblico: professionisti con budget piccolo (il drone del geometra che di sabato diventa il drone dell'agricoltore).
+
+### 4. Droni per la pesca (idea, gia' nella scala Carico)
+- Rilascio di esche e lenze, recupero di reti. Usi lungo costa e laghi; versione con galleggianti per l'atterraggio sull'acqua.
+- Prodotti: **Esca 100 g**, **Rete 1 kg**, **Valigia pesca** (kit con ricambi).
+
+### 5. Spettacoli di luce con droni (idea, servizio + kit)
+- Sciami di piccoli droni con LED, programmati per figure nel cielo; mercato eventi (matrimoni, feste, citta'). Il margine e' sul servizio e sul software, non sull'hardware.
+- Prodotto: **Kit Luce 20/50/100** (droni con LED, software coreografia, noleggio per evento).
+
+### 6. Sicurezza e legalita' (idea, accessori obbligati)
+- **Paracadute di recupero** per volo sopra le persone (richiesto in molti casi).
+- **Modulo di identificazione remota** (Remote ID): obbligatorio per molte categorie; un accessorio che tutti devono comprare.
+- **Assicurazione** e **corso** come servizio collegato al negozio.
+
+### 7. Ala fissa solare o ibrida (idea, esperimenti)
+- Ala fissa con pannelli sul dorso, per volare a lungo con poco peso: per ora un prodotto di ricerca, da seguire.
+
+### 8. Ispezione fotovoltaico con termico (idea, mercato italiano)
+- Drone termico economico con software che segnala le celle difettose. In Italia gli impianti sono tanti e le ispezioni ricorrenti.
+
+**Priorita' per profitto, secondo me:** 1 (Kit Cavo), 6 (Remote ID e paracadute), 3 (drone modulare), 8 (fotovoltaico), poi 2, 4, 5, 7.
+
+**Da fare:** ricerche mirate per ogni idea (prezzi reali dei fornitori, regole ENAC, concorrenza italiana) prima di creare categorie e prodotti.
+
+Fonti: Elistair, Coptrz, drone-parts-center.com, Task & Purpose, Unmanned Aerial Online, GMI, Future Market Insights.
